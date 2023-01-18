@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png"/>
+	<style>
+				
+		input[type=text], select, textarea {
+		  width: 100%;
+		  padding: 12px;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		  margin-top: 6px;
+		  margin-bottom: 16px;
+		  resize: vertical;
+		}
+		
+		input[type=submit] {
+		  background-color: #3A4F7A;
+		  color: white;
+		  padding: 12px 20px;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		}
+		
+		input[type=submit]:hover {
+		  background-color: #45a049;
+		}
+		
+		.containerr {
+		  border-radius: 5px;
+		  background-color: #f2f2f2;
+		  padding: 20px;
+		}
+		</style>
+
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+  
+    
+	<title>Bedirhan Akkurt</title>
+
+<!-- Google Fontları -->
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	
+<!-- Google Fontları -->
+
+
+<!-- Stil Dosyası -->
+
+	<link rel="stylesheet" href="Untitled-2.css">
+	
+<!-- Stil Dosyası -->
+
+</head>
+<body>
+    <nav>
+		<div class="container clearfix">
+			<div id="logo-box">
+				<a href="index.html" class="logo text-uppercase">
+					BEDIRHAN AKKURT
+				</a>
+			</div>
+			<div id="nav-links" class="responsive">
+				<ul>
+				
+					<li class="nav-item">
+						<a href="index.html" class="nav-link text-uppercase nav-icon">
+							<i class="fas fa-bars"></i>
+						</a>
+					</li>
+				
+					<li class="nav-item">
+						<a href="index.html" class="nav-link text-uppercase">
+							Main Page
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="hakkimda.html" class="nav-link text-uppercase">
+							About Me
+						</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="hobilerim.html" class="nav-link text-uppercase">
+							Hobies
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="Redpill.html" class="nav-link text-uppercase">
+							Redpill
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="fotogaleri.html" class="nav-link text-uppercase">
+							Photo Gallery
+						</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="iletisim.html" class="nav-link text-uppercase">
+							Contact 
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	
+
+	<div class="govde">
+
+		<h3>Contact Form</h3>
+
+		 <div class="containerr">
+		  <form action="/action_page.php">
+			<label for="fname">Adınız</label>
+			<input type="text" id="fname" name="firstname" placeholder="Adınızı Yazınız..">
+			<label for="email">E-Mail</label>
+			<input type="text" id="email" name="email" placeholder="E-Mail Adresinizi Yazınız..">
+			
+		
+			
+			<label for="subject">Mesajınız</label>
+			<textarea id="subject" name="subject" placeholder="Mesajınız..." style="height:75px"></textarea>
+		
+			<input type="submit" value="Gönder">
+		  </form>
+		</div>  
+			<h3> Contact Informations </h3>
+		<p><b>Cell Phone: </b>05555555555</p>
+		<p><b>E-mail: </b><a class="link" href="https://mail.google.com/mail/u/0/?hl=tr#inbox"
+			target="_blank" >226001017@stu.adu.edu.tr</a></p>
+			<h4>Aydin Adnan Menderes University</h4>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12601.251917652786!2d27.8543611!3d37.8529666!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x42453e9cdd5dd1b0!2sAdnan%20Menderes%20University!5e0!3m2!1sen!2str!4v1674038125206!5m2!1sen!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+	
+    
+	
+	
+
+	<div class="footerr"> 
+		<h2>Bedirhan Akkurt</h2>
+		<H3>AYDIN ADNAN MENDERES UNIVERSITY</H3>
+	</div>
+<!-- Jquery Kütüphane Linki -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	
+<!-- Jquery Kütüphane Linki -->
+
+	<script>
+	
+		$('.nav-icon').click(function(){			
+			$('#nav-links').toggleClass("responsive");
+			return false;
+		});	
+	
+	</script>
+	
+</body>
+</html>
